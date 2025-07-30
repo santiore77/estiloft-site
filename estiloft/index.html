@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ESTILOFT – Sillones Premium</title>
+  <link rel="icon" type="image/png" href="img/favicon.png">
+
+  <!-- Tipografías -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unna:wght@400;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Animaciones AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- HERO / BIENVENIDA -->
+  <section class="hero">
+    <img src="img/logo.png" alt="ESTILOFT Logo" class="logo-estiloft" />
+    <h1 class="hero-title">La excelencia del diseño industrial</h1>
+    <a href="#productos" class="btn-principal">Ver colección</a>
+  </section>
+
+  <!-- SOBRE ESTILOFT -->
+  <section class="sobre-estiloft" id="sobre">
+    <div class="contenedor">
+      <h2 data-aos="fade-up">Sobre ESTILOFT</h2>
+      <p data-aos="fade-up" data-aos-delay="100">
+        En ESTILOFT diseñamos piezas con identidad. Fusionamos la sobriedad del diseño industrial con la elegancia de los materiales nobles para crear muebles atemporales, pensados para espacios con carácter. Nuestra filosofía combina artesanía de precisión con una estética sofisticada que destaca en cualquier ambiente.
+      </p>
+    </div>
+  </section>
+
+  <!-- GALERÍA DE PRODUCTOS DESTACADOS -->
+  <section class="productos-destacados" id="productos">
+    <h2 class="seccion-titulo">Productos Destacados</h2>
+    <div class="carousel-container">
+      <button class="carousel-btn prev">&#10094;</button>
+      <div class="carousel-track">
+        <div class="card-producto">
+          <img src="img/sillon1.jpg" alt="Sillón Brooklyn">
+          <h3>Sillón Brooklyn</h3>
+        </div>
+        <div class="card-producto">
+          <img src="img/sillon2.jpg" alt="Sillón Tribeca">
+          <h3>Sillón Tribeca</h3>
+        </div>
+        <div class="card-producto">
+          <img src="img/mesa1.jpg" alt="Mesa SoHo">
+          <h3>Mesa SoHo</h3>
+        </div>
+        <div class="card-producto">
+          <img src="img/mesa2.jpg" alt="Mesa SoHo">
+          <h3>Mesa SoHo</h3>
+        </div>
+        <div class="card-producto">
+          <img src="img/sillon3.jpg" alt="Sillón Brooklyn">
+          <h3>Sillón Brooklyn</h3>
+        </div>
+        <!-- más productos acá -->
+      </div>
+      <button class="carousel-btn next">&#10095;</button>
+    </div>
+  </section>
+
+  <!-- PROCESO DE TRABAJO -->
+  <section class="proceso" id="proceso">
+    <div class="contenedor">
+      <h2 data-aos="fade-up">Cómo Trabajamos</h2>
+      <div class="pasos">
+        <div class="paso" data-aos="fade-up"><span>1</span><h3>Diseño personalizado</h3></div>
+        <div class="paso" data-aos="fade-up" data-aos-delay="100"><span>2</span><h3>Materiales premium</h3></div>
+        <div class="paso" data-aos="fade-up" data-aos-delay="200"><span>3</span><h3>Fabricación artesanal</h3></div>
+        <div class="paso" data-aos="fade-up" data-aos-delay="300"><span>4</span><h3>Entrega exclusiva</h3></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS -->
+  <section class="testimonios" id="testimonios">
+    <div class="contenedor">
+      <h2 data-aos="fade-up">Lo que dicen nuestros clientes</h2>
+      <div class="grid-testimonios">
+        <blockquote data-aos="fade-up">"Un sillón ESTILOFT cambió todo mi living. Diseño y confort impecables."<footer>- Carla, Palermo</footer></blockquote>
+        <blockquote data-aos="fade-up" data-aos-delay="100">"La calidad es de otro nivel. Vale cada peso."<footer>- Joaquín, Nordelta</footer></blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-contenido">
+      <p>© 2025 ESTILOFT. Todos los derechos reservados.</p>
+      <div class="footer-logo">
+        <span></span>
+        <img src="img/sp.png" alt="Powered by SP" />
+      </div>
+    </div>
+    <div class="slider-indicator">
+  <span class="active"></span>
+  <span></span>
+  <span></span>
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({ once: true });
+  </script>
+  <script src="scripts.js"></script>
+
+  <!-- BOTON WHATSAPP-->
+  <a href="https://wa.me/5491130009363" class="whatsapp-button" target="_blank" aria-label="Hace tu consulta por WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+
+</body>
+</html>
